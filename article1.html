@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tout savoir sur le Big Data</title>
+<link rel="stylesheet" type="text/css" href="main_style.css"/>
+
+  <link rel="stylesheet" href="vendor/jquery-ui-1.12.1/jquery-ui.css">
+  <script src="vendor/jquery-3.2.1.min.js"></script>
+  <script src="vendor/jquery-ui-1.12.1/jquery-ui.js"></script>
+
+  <script>
+  $( function() {
+
+    $( '.accordion' ).accordion( {
+                                    collapsible: true,
+                                    active: false,
+                                    heightStyle: 'content'
+                                  } );
+  } );
+
+  </script>
+  
+  <style>
+ .accordion {
+  		width: 70%;
+  		margin: 0 auto;
+  		margin-bottom: 50px;
+  		text-align:left;
+  	}
+    .accordion .ui-accordion-header {
+      background: #74b3e6;
+      color:#fff;
+      font-size:1.5em;
+    }
+    .accordion .ui-accordion-header.ui-state-active {
+      background: #74b3e6;
+      font-weight: bold;
+      color:#fff;
+      font-size:1.5em;
+    }
+    .accordion .ui-accordion-content {
+    	background-color:#fff;
+    	
+    }
+    .accordion .ui-icon {
+	  -ms-transform: scale(2); /* IE 9 */
+	  -webkit-transform: scale(2); /* Chrome, Safari, Opera */
+	  transform: scale(2);
+	  margin-top: -0.10em;
+	  margin-right:10px;
+
+    }
+  </style>
+  
+</head>
+<body>
+
+<!----------------------------------- Debut header ---------------------------------->
+<div class="header1">
+	<header>
+	<!----------------------------------- Titre Principal ----------------------->
+
+	</header>
+	</div>
+<!----------------------------------- Menu ---------------------------------->
+		<nav>
+<ul>
+
+<li><a href="index.html">Accueil</a></li>
+<li><a href="glossaire.html">Glossaire</a></li>
+<li><a href="index.html#qui">Qui sommes nous ?</a></li>
+<li><a href="index.html#contact">Contact</a></li>
+</ul>
+		</nav>
+<!----------------------------------- Fin header ---------------------------------->
+
+<main>
+
+<div class="artlinks-article">
+
+<a href="article1.html" title="Immersion"><img src="datasnb.png" alt="introduction" class="picto"></a>
+
+<a href="article2.html" title="3 Révolutions en 1"><img src="revolution.png" alt="revolution" class="picto"></a>
+
+<a href="article3.html" title="Points de vigilance"><img src="attention.png" alt="limites" class="picto"></a>
+
+</div>
+
+
+<h1>Immersion dans le Big Data</h1>
+
+<div class="intro-article">
+
+</div>
+
+<div class="accordion">
+
+<h2>Le Big data : Définition</h2>
+
+<div>
+<figure><img src="evolutionbigdata.png" alt="L'evolution du Big Data" class="illustration"></figure>
+<p>Le <a href="glossaire.html#B">Big Data</a> est un concept inventé par les géants du web (Yahoo, Google) au début des années 2000. Il est né du besoin d’exploiter une quantité phénoménale de données numériques hétérogènes. Les outils traditionnels de gestion de l’informations (ou <a href="glossaire.html#K" target="_blank">knowledge management</a>), tels que les <a href="glossaire.html#S" target="_blank">serveurs</a> SQL, ont montré leurs limites à exploiter de manière efficace cette masse de données plus ou moins granulaires.</p><br>
+ <div class="clear"></div>
+<p>En quelques chiffres, le <a href="glossaire.html#B" target="_blank">Big Data</a> représente aujourd’hui :</p><br>
+
+
+<ul>
+<li>2,5 trillions d’octets de données créées et partagées dans le monde chaque jour.</li>
+<li>90% des données existantes générées au cours de ces trois dernières années.</li>
+<li>80% des données existantes pas en mesure d’être analysées.</li><br></p>
+</ul>
+<div class="clear"></div>
+<p>Le <a href="glossaire.html#B" target="_blank">Big Data</a> couvre cinq problématiques majeures :</p><br>
+
+<ul>
+<li>Le Volume : traiter une quantité de données toujours croissante.</li>
+<li>La Variété : intégrer des données aux formats divers et variés. Les données peuvent être structurées (base de données), non structurées (emails, vidéos, transactions commerciales, réseaux sociaux) semi-structurées (xml).</li>
+<li>La Véracité : s’assurer que les données sont fiables.</li>
+<li>La Vélocité : utiliser des outils performants pour collecter, gérer, exploiter et partager ces données.</li>
+<li>La Visualisation : utiliser des outils tels que des graphiques, heatmaps ou des cartes pour donner un caractère concret aux données.</li>
+</ul>
+<cite><br>
+Pour aller plus loin, consultez <a href="http://www.cairn.info/revue-i2d-information-donnees-et-documents-2015-2-page-25.htm" target="_blank">Cairn</a></cite>
+</div>
+</div>
+
+<div class="accordion">
+
+<h2>La gestion des données</h2>
+
+<div>
+
+<p>Le processus d’utilisation des données par les entreprises se divise en deux parties :</p><br>
+
+<ul> 
+<li><p>Les technologies de stockage comme par exemple le <a href="glossaire.html#C" target="_blank">cloud computing</a> : un espace regroupant des services de stockage, utilisé pour gérer, exploiter et acheter des ressources informatiques.</p>
+<cite>Pour aller plus loin, consultez le site de <a href="https://azure.microsoft.com/fr-fr/overview/what-is-cloud-computing/" target="_blank">Microsoft</a></cite></li>
+<li><p>Les technologies de traitement ajustées telles que les bases de données <a href="glossaire.html#N" target="_blank">NoSQL</a> pour gérer et requêter. Ces bases de données sont capables de convertir les données brutes en données exploitables. 
+<br>Parmi les plus prisées on retrouve des projets comme par exemple :</p><br>
+<ul>
+<li>Hadoop : un <a href="glossaire.html#F" target="_blank">framework</a> de logiciels <a href="glossaire.html#O" target="_blank">open source</a>, c’est-à dire un ensemble de logiciels libre-service, dans lequel des centaines de <a href="glossaire.html#S" target="_blank">serveurs</a> gèrent les requêtes et résolvent les pannes.</li><br>
+<li>HBase : pour une gestion des données structurées contenues dans des tableaux volumineux.</li></li>
+<ul> 
+
+</div>
+</div>
+
+<div class="accordion">
+
+<h2>Et si on parlait…</h2>
+
+<div>
+
+<span>...d’éthique</span><br><br>
+ <figure><img src="enjeuxbigdata.jpg" alt="Les chiffres clés du Big Data" class="illustration"></figure>
+ 
+<p><br>L’objectif des entreprises est de mieux connaître les consommateurs. <br>Elles se servent des algorithmes de <a href="glossaire.html#D" target="_blank">Data Mining</a> pour traiter un vaste volume d’informations provenant d’eux. Les données qu’elles achètent permettent de leur proposer du contenu personnalisé. Or, les consommateurs sont soucieux de protéger leur vie privée.</p>
+ <br><br>
+<p>Les lois européennes tentent de s’adapter à la rapidité du développement du <a href="glossaire.html#B" target="_blank">Big Data</a>. Elles encadrent les questions :</p>
+<ul>
+<li>de confidentialité des données.</li>
+<li>de droit d’accès aux données collectées.</li>
+<li>de sécurisation des données.</li>
+<br></ul>
+ 
+   <span> ...du cadre légal</span><br><br>
+<figure><img src="bigdataethique.png" alt="Big Data & etique" class="illustration"></figure>
+<p><br>En France, la Loi Informatique et libertés de 1978 encadre la collecte, l’utilisation et le stockage des données. Les organismes qui collectent les données de leurs salariés et/ou de leurs clients doivent impérativement respecter ces règles.</p>
+ <div class="clear"></div><br>
+<p>Ces organismes doivent faire appel à un correspondant informatique et libertés (CIL) qui sera le référent en matière :</p><br>
+<ul>
+<li>de sécurité juridique : il doit s’assurer que l’organisme pour lequel il travaille respecte les prescriptions de la Loi informatique et libertés.</li>
+<li>de protection des données personnelles : il est garant que toutes les précautions ont été prises pour préserver la sécurité des données.</li>
+<li>de gestion des données : l’organisme doit obligatoirement consulter le CIL avant de mettre en place un nouveau traitement.</li>
+ 
+<cite><br>Pour aller plus loin, consultez le site de la <a href="https://www.cnil.fr/fr" target="_blank"> CNIL</a></cite>
+</p>
+</div>
+</div>
+
+</main>
+<footer>
+<div><img src="logotechnolix.png" alt="Logo technolix" class="logotechnolix"></div>
+<div="clear"></div>
+<div>Copyright © 2017</div> 
+</footer>
+</body>
+</html>
